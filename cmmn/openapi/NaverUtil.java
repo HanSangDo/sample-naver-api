@@ -1,4 +1,4 @@
-package com.yesjnet.cmmn.openapi;
+package cmmn.openapi;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -27,11 +27,11 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.yesjnet.cmmn.util.NaverApiUtil;
-import com.yesjnet.cmmn.util.PropertiesUtil;
-import com.yesjnet.cmmn.util.StringUtil;
-import com.yesjnet.cmmn.vo.NaverApiVO;
-import com.yesjnet.cmmn.vo.ParamVO;
+import cmmn.util.NaverApiUtil;
+import cmmn.util.PropertiesUtil;
+import cmmn.util.StringUtil;
+import cmmn.vo.NaverApiVO;
+import cmmn.vo.ParamVO;
 
 /**
  * 네이버 API 유틸
